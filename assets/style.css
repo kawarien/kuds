@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i|Staatliches');
+
+html {
+    font-size: 18px;
+}
+
+body, .ui.text.container, .ui.menu, .ui.button  {
+    font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, .ui.header {
+    font-family: 'Staatliches', cursive;
+}
+
+footer {
+    padding: 2em 0;
+}
+
+section.primary {
+    padding: 7em 0;
+    text-align: center;
+    background-color: darkblue;
+    background: linear-gradient(162.05deg, rgba(35, 114, 210, 0.769) -2.86%, rgba(17, 1, 194, 0.878) 103.19%), url(section-primary-background.jpg);
+    background-size: cover;
+    color: white;
+}
+section.primary h1 {
+    font-size: 2.7em;
+}
+main > article {
+    padding: 4em 0;
+}
